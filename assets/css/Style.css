@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 .col-lg-12 {
     box-sizing: border-box;
     padding: 20;
@@ -21,7 +23,8 @@
     border-top-right-radius: calc(.25rem - 1px);
     text-align: center;
     font-size: x-large;
-
+    font-family: 'Muli',
+        sans-serif;
     position: relative;
     z-index: 0;
 }
@@ -33,13 +36,19 @@ h1 {
 
 }
 
+.block {
+    background-color: rgba(0, 0, 0, 0.438);
+}
 
 
 .card-text {
-    padding: 10%, 10%, 10%, 10%;
+
     text-align: left;
-    width: 100%;
-    font-family: 'Noto Sans',
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    width: 98%;
+    font-family: 'Muli',
         sans-serif;
     font-size: medium;
 
@@ -50,12 +59,8 @@ h1 {
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     float: left;
-}
-
-hr {
-    color: aliceblue;
 }
 
 h2 {
@@ -64,6 +69,8 @@ h2 {
     left: 0;
     width: 100%;
     background: #fff;
+    font-family: 'Muli',
+        sans-serif;
 
 }
 
@@ -92,12 +99,11 @@ html,
 body {
     height: 100%;
     margin: 50;
+    font-family: 'Muli',
+        sans-serif;
 }
 
 .wrapper {
     min-height: 100%;
-
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -50px;
 }
