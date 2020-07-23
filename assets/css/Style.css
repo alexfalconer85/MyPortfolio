@@ -37,9 +37,12 @@ h1 {
 }
 
 .block {
-    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(255, 255, 255, 0.438);
 }
 
+.contact {
+    column-width: auto;
+}
 
 .card-text {
 
@@ -97,7 +100,6 @@ h2 {
 
 html,
 body {
-    background-image: url("https://lh3.googleusercontent.com/proxy/AhnqbLbLGspUZHUy6IMuyAFwy3dTsNmlcVyosIR_Ycy-AZHH1auueeFcrOoVNTt997wSecKnHW2NhuxPmqWcolvBCInPtIAHMXULVty0dUyNfv6JHB1fMirbS9s4sYkund8WfdTk696N9HFVt5Bc7mzzfw");
     height: 100%;
     margin: 50;
     font-family: 'Muli',
